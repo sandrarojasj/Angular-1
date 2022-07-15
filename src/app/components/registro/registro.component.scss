@@ -1,0 +1,76 @@
+
+$color-principal:blue;
+$color-letra: black;
+
+body{
+    color: $color-principal;
+    margin:0;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    color: aliceblue;
+    border:10px solid red;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+  div {
+    height:fit-content;
+    width:fit-content;
+    position:static;
+    border-radius: 10px;
+    color:$color-letra;
+    margin:auto;
+    text-align: center;
+
+    input[type= nombre] {
+        width: 100%;
+        padding: 10px 15px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        margin-bottom: 25px; 
+      }
+
+    input[type= email] {
+        width: 100%;
+        padding: 10px 15px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        margin-bottom: 25px; 
+      }
+    
+      input[type= password] {
+        width: 100%;
+        padding: 10px 15px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        margin-bottom: 25px; 
+      }
+    
+  }
+
+p {
+    color: $color-principal;
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+  
+button {
+    background-color: #4CAF50;
+    margin:0px;
+    height: 20px;
+    width: 20%;
+    border: 3px solid green;
+    padding: 20px;
+    color:$color-letra;
+
+  }
+
+
+
+  
+
